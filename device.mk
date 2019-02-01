@@ -442,6 +442,10 @@ PRODUCT_BOOT_JARS += \
     QPerformance \
     UxPerformance
 
+# Init scripts
+PRODUCT_PACKAGES += \
+    init.performance.rc
+
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
